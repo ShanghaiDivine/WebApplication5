@@ -16,7 +16,7 @@ namespace WebApplication5
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            var db = new TuesdayDataContext();
+             var db = new TuesdayDataContext();
             var results = from line in db.Orders
                           where line.Freight < 5
                           select new { line.OrderID, line.OrderDate, line.Freight, line.ShipCountry };

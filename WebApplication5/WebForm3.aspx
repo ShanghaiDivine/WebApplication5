@@ -7,28 +7,7 @@
     <title></title>
     jqHide      
     <script>
-
-        $.ajax({
-            type: "POST",
-            url: "/url",
-            data: "name=John&location=Boston",
-            dataType: "json",
-            success: function (response)
-            {
-
-            }
-        });
-        $.ajax({
-            type: "POST",
-            contentType: "application/json; charset=utf-8",
-            dataType: "json",
-            url: "WebService.asmx/WebMethodName",
-            data: "{}",
-            success: function (response)
-            {
-
-            }
-        });
+// script here
     </script>
 </head>
 <body>
